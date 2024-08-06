@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+.netprofit {
+  width: 95%;
+  height: 130px;
+  background-color: #202028;
+  border-radius: 5px;
+  display: flex;
+}
+
+.totalCount {
+  width: 50%;
+  height: 100%;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.totalCount p {
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.totalCount h2 {
+  color: white;
+  font-size: 42px;
+  font-weight: bold;
+}
+
+.downCare {
+  width: 50%;
+  display: flex;
+  color: #35a285;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 5px;
+}
+
+.downCare p {
+  color: #35a285;
+}
+.pieChart {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.doughnut {
+  width: 100%;
+  height: 80%;
+  display: flex;
+  justify-content: center;
+}
+
+.pieChart p {
+  font-size: 8px;
+  font-family: "Poppins", sans-serif;
+  color: white;
+  text-align: center;
+}
+
+@media (max-width: 480px) {
+  .netprofit {
+    width: 99%;
+    font-size: xx-small;
+    height: 100px;
+  }
+  .pieChart {
+    width: 193px;
+    height: 92px;
+    align-items: center;
+    justify-content: end;
+  }
+  .totalCount h2 {
+    font-size: x-large;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+  .netprofit {
+    width: 99%;
+    font-size: xx-small;
+    height: 120px;
+    justify-content: space-between;
+    padding: 13px;
+  }
+  .pieChart {
+    width: 193px;
+    height: 92px;
+    align-items: center;
+    justify-content: end;
+  }
+  .totalCount h2 {
+    font-size: x-large;
+  }
+}

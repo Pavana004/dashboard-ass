@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "name": "Jenny Wilson",
+    "comment": "The food was excellent and so was the service. I had the mushroom risotto with scallops which was awesome. I had a burger over greens( gluten- free) which was also very good. They were very conscientious about gluten allergies .",
+    "profilepicture": "https://panorbit.in/wp-content/uploads/2019/hotlink-ok/1001.jpeg",
+    "rating": 4
+  },
+  {
+    "id": 2,
+    "name": "Dianne Russell",
+    "comment": "We enjoyed the Eggs Benedict served on homemade focaccia bread and hot coffee. Perfect service",
+    "profilepicture": "https://panorbit.in/wp-content/uploads/2019/hotlink-ok/1002.jpeg",
+    "rating": 3
+  },
+  {
+    "id": 3,
+    "name": "Devon Lane",
+    "comment": "Normally wings are wings but theirs are lean meaty and tender and",
+    "profilepicture": "https://panorbit.in/wp-content/uploads/2019/hotlink-ok/1004.jpeg",
+    "rating": 4
+  }
+]

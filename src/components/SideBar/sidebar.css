@@ -1,0 +1,83 @@
+.sideBar {
+  width: 90px;
+  height: 100vh;
+  background-color: #202028;
+}
+.logo {
+  width: 100%;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo img {
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+}
+
+.link {
+  text-decoration: none;
+  color: #9a9ba0;
+}
+
+.active {
+  color: #7095ff;
+}
+
+.inactive {
+  color: #9a9ba0;
+}
+
+.main-icons {
+  width: 100%;
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  position: relative;
+  top: 4%;
+  color: #9a9ba0;
+  font-weight: bolder;
+}
+
+.icons-box:hover {
+  color: #7095ff;
+  transition: 0.2s;
+  transition: ease-in-out 0.4s;
+}
+
+.icons-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: fit-content;
+  font-weight: bolder;
+}
+
+.close-btn {
+  width: 100%;
+  height: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  position: relative;
+  top: 4%;
+  color: #9a9ba0;
+  cursor: pointer;
+  rotate: -45deg;
+}
+
+@media (max-width: 576px) {
+  .sideBar {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .sideBar {
+    display: none;
+  }
+}

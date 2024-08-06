@@ -1,0 +1,286 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+.dailyAct {
+  position: relative;
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  height: 130px;
+}
+
+.childContainer {
+  width: 170px;
+  height: 130px;
+  background-color: #202028;
+  border-radius: 5px;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-size: small;
+  padding: 10px;
+}
+
+.dailyicons {
+  width: 35px;
+  height: 35px;
+  background-color: #293368;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.dailyicons img {
+  width: 20px;
+  height: 20px;
+}
+
+.orders {
+  margin-bottom: 10px;
+}
+.value {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  justify-content: space-between;
+  font-family: "Poppins", sans-serif;
+  align-items: center;
+}
+
+.value h6 {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.carePrecentage {
+  width: 50%;
+  display: flex;
+  color: #35a285;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 5px;
+}
+
+.dailyicons-1 {
+  width: 35px;
+  height: 35px;
+  background-color: #0e5241;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.dailyicons-1 img {
+  width: 20px;
+  height: 20px;
+}
+
+.orders-1 {
+  margin-bottom: 10px;
+}
+.value-1 {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  justify-content: space-between;
+  font-family: "Poppins", sans-serif;
+  align-items: center;
+}
+
+.value-1 h6 {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.carePrecentage-1 {
+  width: 50%;
+  display: flex;
+  color: #bb757d;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 5px;
+}
+
+.dailyicons-2 {
+  width: 35px;
+  height: 35px;
+  background-color: #ef6562;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.dailyicons-2 img {
+  width: 20px;
+  height: 20px;
+}
+
+.orders-2 {
+  margin-bottom: 10px;
+}
+.value-2 {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  justify-content: space-between;
+  font-family: "Poppins", sans-serif;
+  align-items: center;
+}
+
+.value-2 h6 {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.carePrecentage-2 {
+  width: 50%;
+  display: flex;
+  color: #35a285;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 5px;
+}
+
+.dailyicons-3 {
+  width: 35px;
+  height: 35px;
+  background-color: #dc5aa2;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.dailyicons-3 img {
+  width: 20px;
+  height: 20px;
+}
+
+.orders-3 {
+  margin-bottom: 10px;
+}
+.value-3 {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  justify-content: space-between;
+  font-family: "Poppins", sans-serif;
+  align-items: center;
+}
+
+.value-3 h6 {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.carePrecentage-3 {
+  width: 50%;
+  display: flex;
+  color: #bb757d;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 5px;
+}
+
+@media (max-width: 480px) {
+  .dailyAct {
+    width: 100%;
+    height: fit-content;
+    padding: 10px;
+  }
+  .childContainer {
+    width: 100px;
+    height: 100px;
+    font-size: x-small;
+  }
+  .dailyicons,
+  .dailyicons-1,
+  .dailyicons-2,
+  .dailyicons-3 {
+    width: 30px;
+    height: 30px;
+  }
+  .value,
+  .value-1,
+  .value-2,
+  .value-3 {
+    width: 100%;
+    height: 15px;
+    font-size: small;
+  }
+
+  .value h6 {
+    font-size: small;
+  }
+  .value-1 h6 {
+    font-size: small;
+  }
+  .value-2 h6 {
+    font-size: small;
+  }
+  .value-3 h6 {
+    font-size: small;
+  }
+
+  .carePrecentage,
+  .carePrecentage-1,
+  .carePrecentage-2,
+  .carePrecentage-3 {
+    font-size: x-small;
+    align-items: center;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+  .dailyAct {
+    width: 100%;
+    height: fit-content;
+    padding: 10px;
+  }
+  .childContainer {
+    width: 180px;
+    height: 100px;
+    font-size: x-small;
+  }
+  .dailyicons,
+  .dailyicons-1,
+  .dailyicons-2,
+  .dailyicons-3 {
+    width: 30px;
+    height: 30px;
+  }
+  .value,
+  .value-1,
+  .value-2,
+  .value-3 {
+    width: 100%;
+    height: 15px;
+    font-size: small;
+  }
+
+  .value h6 {
+    font-size: small;
+  }
+  .value-1 h6 {
+    font-size: small;
+  }
+  .value-2 h6 {
+    font-size: small;
+  }
+  .value-3 h6 {
+    font-size: small;
+  }
+
+  .carePrecentage,
+  .carePrecentage-1,
+  .carePrecentage-2,
+  .carePrecentage-3 {
+    font-size: x-small;
+    align-items: center;
+  }
+}
